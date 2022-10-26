@@ -688,8 +688,7 @@ function App(props) {
               faucetAvailable ? (
                 <Faucet localProvider={localProvider} price={price} ensProvider={mainnetProvider} />
               ) : (
-                ""
-                
+                "" 
               )
             }
           </Col>
